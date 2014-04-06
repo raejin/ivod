@@ -4,6 +4,14 @@ This repo serves as an easy-to-use tool for anyone (maybe not including Windows 
 
 The original motivation for this project is to facilitate backup process for videos that are available on ivod.ly.gov.tw but difficult to watch due to low bandwidth and non-standardized video format.
 
+# Dependencies
+
+- [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/) for Python 2.6+, HTML parsing
+
+```
+pip install beautifulsoup4
+```
+
 # Progress
 
 - given IVOD reference number, a video file will be re-assembled
