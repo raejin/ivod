@@ -4,9 +4,6 @@ import sys
 data = "".join(sys.stdin.readlines())
 html = BeautifulSoup(data)
 
-# def text_section(tag):
-  # return tag.has_attr("class")
-
 text = html.find(id="content").find_all("div", {"class": "text"})
 
 def p_tag_without_class(tag):

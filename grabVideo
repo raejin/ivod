@@ -1,2 +1,2 @@
 #!/bin/sh
-curl --data "metdec=內政委員會&mvtype=2&waytype=interval&interval=week&page=2" http://ivod.ly.gov.tw/Demand/AdvanceSearch | python process.py
+curl --data "metdec=內政委員會&mvtype=2&waytype=interval&interval=month" http://ivod.ly.gov.tw/Demand/AdvanceSearch | python process.py
